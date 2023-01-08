@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="main" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="600.0" style="-fx-background-color: rgb(255,255,255);" stylesheets="@tww.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.testris.controller.MainController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="170.0" layoutX="410.0" layoutY="95.0" stroke="BLACK" strokeType="INSIDE" width="170.0" />
+      <Line endX="50.0" endY="619.0" layoutX="355.0" layoutY="181.0" startX="50.0" startY="-181.0" />
+      <Label fx:id="score" layoutX="410.0" layoutY="38.0" prefHeight="38.0" prefWidth="72.0" text="SCORE :">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label id="valueScore" fx:id="valueScore" layoutX="484.0" layoutY="38.0" prefHeight="38.0" prefWidth="109.0" text="0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+
+   </children>
+</Pane>
